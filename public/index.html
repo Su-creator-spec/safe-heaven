@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Safe Haven</h1>
+    </header>
+    <main>
+        <section id="hate-speech-detector">
+            <h2>Hate Speech Detector</h2>
+            <form id="hate-speech-form">
+                <textarea id="hate-speech-text" placeholder="Enter text to detect hate speech"></textarea>
+                <button id="hate-speech-button">Detect Hate Speech</button>
+                <p id="hate-speech-result"></p>
+            </form>
+        </section>
+        <section id="moderation-model">
+            <h2>Moderation Model</h2>
+            <form id="moderation-form">
+                <label for="moderation-input">Enter Text:</label>
+                <input type="text" id="moderation-input" required />
+                <button type="submit">Moderate</button>
+            </form>
+        </section>
+        
+        <div id="moderation-result"></div>
+        
+        <section id="resource-library">
+            <h2>Resource Library</h2>
+            <ul id="resource-list">
+                <!-- Resource list will be populated here -->
+            </ul>
+        </section>
+        <section id="community-forum">
+            <h2>Community Forum</h2>
+            <form id="post-form">
+                <input type="text" id="post-title" placeholder="Title" required />
+                <textarea id="post-content" placeholder="Content" required></textarea>
+                <input type="text" id="post-author" placeholder="Author" required />
+                <button type="submit">Post</button>
+            </form>
+            <div id="posts-container"></div>
+            <ul id="forum-list">
+                <!-- Forum posts will be populated here -->
+            </ul>
+        </section>
+        <section id="reporting-tool">
+            <h2>Reporting Tool</h2>
+            <form id="report-form">
+                <textarea id="report-text" placeholder="Enter your report"></textarea>
+                <button id="report-button">Submit Report</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script>
+        const apiEndpoint = 'http://localhost:3000';
+        // Add API calls to interact with the backend
+    </script>
+</body>
+</html>
