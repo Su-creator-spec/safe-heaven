@@ -1,4 +1,5 @@
 
+
 # 🌍 Safe Heaven
 **Empowering Digital Spaces with AI-Driven Moderation**
 
@@ -40,3 +41,4 @@ Hate speech and harmful online interactions are growing concerns in the digital 
 
 ---
 🚀 *Building a safer online space, one step at a time!*
+
