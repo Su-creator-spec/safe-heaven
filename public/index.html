@@ -3,64 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safe Haven</title>
+    <title>Safe Heaven</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Safe Haven</h1>
+        <h1>Safe Heaven</h1>
     </header>
     <main>
-        <section id="hate-speech-detector">
-            <h2>Hate Speech Detector</h2>
-            <form id="hate-speech-form">
-                <textarea id="hate-speech-text" placeholder="Enter text to detect hate speech"></textarea>
-                <button id="hate-speech-button">Detect Hate Speech</button>
-                <p id="hate-speech-result"></p>
-            </form>
-        </section>
-        <section id="moderation-model">
-            <h2>Moderation Model</h2>
-            <form id="moderation-form">
-                <label for="moderation-input">Enter Text:</label>
-                <input type="text" id="moderation-input" required />
-                <button type="submit">Moderate</button>
-            </form>
-        </section>
-        
-        <div id="moderation-result"></div>
-        
-        <section id="resource-library">
-            <h2>Resource Library</h2>
-            <ul id="resource-list">
-                <!-- Resource list will be populated here -->
+        <!-- Top Section: Hate Speech & Moderation -->
+        <div class="top-section">
+            <section id="hate-speech-detector" class="section-box">
+                <h2>Hate Speech Detector</h2>
+                <form id="hate-speech-form">
+                    <textarea id="hate-speech-text" placeholder="Enter text"></textarea>
+                    <button class="blue-button">Detect</button>
+                    <p id="hate-speech-result"></p>
+                </form>
+            </section>
+
+            <section id="moderation-model" class="section-box">
+                <h2>Moderation Model</h2>
+                <form id="moderation-form">
+                    <input type="text" id="moderation-input" placeholder="Enter text" required />
+                    <button class="blue-button">Moderate</button>
+                </form>
+                <p id="moderation-result"></p>
+            </section>
+        </div>
+
+        <!-- Center Section: Resource Library Button -->
+        <div class="center-section">
+            <button id="resource-library-button" class="blue-button">Resource Library</button>
+        </div>
+
+        <!-- Resource Library Documentation -->
+        <div id="resource-library" class="hidden">
+            <h2>Resource Library: Hate Speech Detection & Cyberbullying</h2>
+            <h3>🔹 What is Hate Speech?</h3>
+            <p>Hate speech is any communication that belittles, discriminates, or incites violence against a person or group based on attributes like race, religion, gender, or identity.</p>
+
+            <h3>🔹 How Does Hate Speech Detection Work?</h3>
+            <p>AI-powered hate speech detection models analyze textual data and classify it based on predefined categories. These models use **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques to identify harmful content.</p>
+            <ul>
+                <li><strong>Data Preprocessing:</strong> Removing unnecessary characters, tokenizing text, and filtering words.</li>
+                <li><strong>Sentiment Analysis:</strong> Evaluating the emotional tone of the content.</li>
+                <li><strong>Machine Learning Models:</strong> Models like LSTMs, Transformers (BERT, GPT), and CNNs help classify text.</li>
+                <li><strong>Real-time Moderation:</strong> Automatically flagging or removing content based on severity.</li>
             </ul>
-        </section>
-        <section id="community-forum">
-            <h2>Community Forum</h2>
-            <form id="post-form">
-                <input type="text" id="post-title" placeholder="Title" required />
-                <textarea id="post-content" placeholder="Content" required></textarea>
-                <input type="text" id="post-author" placeholder="Author" required />
-                <button type="submit">Post</button>
-            </form>
-            <div id="posts-container"></div>
-            <ul id="forum-list">
-                <!-- Forum posts will be populated here -->
+
+            <h3>🔹 Understanding Cyberbullying</h3>
+            <p>Cyberbullying involves using digital platforms to harass, threaten, or demean individuals. It can include:</p>
+            <ul>
+                <li>Hate speech and online harassment.</li>
+                <li>Doxxing (sharing personal info without consent).</li>
+                <li>Cyberstalking and threats.</li>
+                <li>Spreading false information.</li>
             </ul>
-        </section>
-        <section id="reporting-tool">
-            <h2>Reporting Tool</h2>
-            <form id="report-form">
-                <textarea id="report-text" placeholder="Enter your report"></textarea>
-                <button id="report-button">Submit Report</button>
-            </form>
-        </section>
+
+            <h3>🔹 How to Prevent and Report Hate Speech?</h3>
+            <ul>
+                <li><strong>Report Abuse:</strong> Use the "Report Posting" feature to flag harmful content.</li>
+                <li><strong>Content Moderation:</strong> AI-powered moderation ensures a safe online environment.</li>
+                <li><strong>Educational Resources:</strong> Learn about the impact of hate speech and how to combat it.</li>
+            </ul>
+
+            <button id="close-library">Close</button>
+        </div>
+
+        <!-- Bottom Section: Community Forum & Reporting -->
+        <div class="bottom-section">
+            <section id="community-forum" class="section-box">
+                <h2>Community Forum</h2>
+                <form id="post-form">
+                    <input type="text" id="post-title" placeholder="Title" required />
+                    <textarea id="post-content" placeholder="Content" required></textarea>
+                    <input type="text" id="post-author" placeholder="Author" required />
+                    <button class="blue-button">Post</button>
+                </form>
+                <div id="posts-container"></div>
+            </section>
+
+            <section id="reporting-tool" class="section-box">
+                <h2>Report Posting</h2>
+                <form id="report-form">
+                    <textarea id="report-text" placeholder="Enter your report"></textarea>
+                    <button class="blue-button">Submit Report</button>
+                </form>
+            </section>
+        </div>
     </main>
     <script src="script.js"></script>
-    <script>
-        const apiEndpoint = 'http://localhost:3000';
-        // Add API calls to interact with the backend
-    </script>
 </body>
 </html>
