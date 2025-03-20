@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const childProcess = require('child_process');
-const app = express();
+const app = express(); 
 
 // MongoDB Connection
 mongoose.connect('mongodb://localhost/safehaven').then(() => {
