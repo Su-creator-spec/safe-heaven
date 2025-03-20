@@ -50,7 +50,21 @@ JavaScript Model: Utilizes a sentiment analysis library with adjustable moderati
 **Machine Learning Libraries**: Supporting the Python model.
 
 ## Setup and Installation
-Installation instructions go here...
+## Python Model
+1. Open Google Colab and upload the Python script.
+
+2. Install the necessary libraries by running:
+   pip install -r requirements.txt
+3. Run the script to train and deploy the model.
+
+## JavaScript Model
+1. Clone the repository from GitHub:
+   git clone https://github.com/Su-creator-spec/safe-heaven/tree/main
+2. Navigate to the project directory:
+   cd safe-heaven
+3. Install the required dependencies:
+   npm install
+
 
 ## Usage
 ## Python Model
