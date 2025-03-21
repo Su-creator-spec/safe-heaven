@@ -6,7 +6,6 @@ This Python-based model forms a critical part of the *Safe-Heaven* project, desi
 The model is customizable and can be fine-tuned for different datasets or requirements, making it versatile and scalable for a variety of applications.
 
 
-
 ## Table of Contents
 1. [Core Features](#core-features)
 2. [Technologies Used](#technologies-used)
