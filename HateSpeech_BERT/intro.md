@@ -1,8 +1,10 @@
 # Python Model for Hate Speech Detection
+
 ## Overview
 This Python-based model forms a critical part of the *Safe-Heaven* project, designed to create a safer digital environment. By leveraging advanced machine learning techniques, the model detects and flags harmful online content, such as hate speech, with remarkable accuracy. Built entirely in **Google Colab**, it exemplifies the power of data science and machine learning in addressing online harms.
 
 The model is customizable and can be fine-tuned for different datasets or requirements, making it versatile and scalable for a variety of applications.
+
 
 
 ## Table of Contents
@@ -19,6 +21,8 @@ The model is customizable and can be fine-tuned for different datasets or requir
 - **Efficient and Scalable**: Handles large-scale data inputs for real-time detection.
 - **Text Sentiment Analysis**: Assesses text data to classify it as harmful or safe.
 - **Easy Deployment**: The model is lightweight and straightforward to integrate into existing systems.
+
+
 
 ## Technologies Used
 The model incorporates the following tools and frameworks:
@@ -38,8 +42,8 @@ Follow these steps to get the model running:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/MG-STARK-007/safe-heaven.git
-   cd safe-heaven/HateSpeech_BERT/intro.md
+   git clone https://github.com/<your-username>/safe-heaven.git
+   cd safe-heaven/python-model
    ```
 
 2. **Set Up Python Environment**:
@@ -60,7 +64,7 @@ Follow these steps to get the model running:
    - Upload the provided notebook (`model.ipynb`) into **Google Colab** and execute the code cells.
 
 
-   ## Usage Instructions
+## Usage Instructions
 The Python model is straightforward to use:
 1. **Dataset Preparation**:
    - Ensure your input dataset is formatted correctly. The dataset should include labeled text data for training and evaluation.
@@ -80,7 +84,4 @@ The Python model is straightforward to use:
 - **Accuracy**: Achieves high precision and recall for identifying harmful content.
 - **Speed**: Processes textual data efficiently, suitable for real-time applications.
 - **Flexibility**: Supports customization for different datasets and requirements.
-
-
-
 
