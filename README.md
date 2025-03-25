@@ -1,7 +1,3 @@
-Certainly! Here's a combined and polished version of the README file for your hackathon project:
-
----
-
 # 🌍 Safe Heaven
 **Empowering Digital Spaces with AI-Driven Moderation**
 
@@ -109,6 +105,4 @@ Safe Heaven was developed as part of the **GDG Solutions Hackathon 2025**, addre
 
 🎉 *Together, let's build a safer online community—one step at a time!*
 
----
 
-I hope this refined version captures the essence of your project and serves as an effective and engaging README for your hackathon submission! 🚀 Let me know if you'd like any further tweaks.
